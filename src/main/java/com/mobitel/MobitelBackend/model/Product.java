@@ -9,8 +9,6 @@ import javax.persistence.Transient;
 
 import org.springframework.web.multipart.MultipartFile;
 
-
-
     @Entity
     @Table
     public class Product {

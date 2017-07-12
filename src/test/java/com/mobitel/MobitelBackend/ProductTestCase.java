@@ -20,29 +20,29 @@ public class ProductTestCase {
 		ProductDAO productDAO=(ProductDAO)context.getBean("productDAO");
 		
 		//Insertion TestCase
-		
+		/*
 		Product product=new Product();
 		
-		product.setProdname("Samsung Note 3");
-		product.setProdDesc("This Mobile uses 3G technology.");
+		product.setProdname("Converse");
+		product.setProdDesc("Running Shoes");
 		product.setQuantity(70);
 		product.setPrice(11000);
-	
+		
 
 		productDAO.insertUpdateProduct(product);		
 		System.out.println("Product Inserted");
-		
+		*/
 		//Retrieval TestCase
-	/*	
+	/*
 		Product product=productDAO.getProduct(2);
 		System.out.println("Product Name:"+product.getProdname());
 		System.out.println("Product Description:"+product.getProdDesc());
 	*/	
-	/*	//Deletion TestCase
-		Product product=productDAO.getProduct(2);
+		//Deletion TestCase
+		Product product=productDAO.getProduct(1);
 		productDAO.deleteProduct(product);
 		System.out.println("The Product Deleted");
-	*/
+	
 		//Retrieving the Data
 		
 	/*	List<Product> list=productDAO.getProductDetails();

@@ -24,8 +24,8 @@ public class SupplierTestCase {
 		
 		Supplier supplier=new Supplier();
 		
-		supplier.setSuppname("Supplier-Rayan");
-		supplier.setAddress("Borivali - I.C. Colony");
+		supplier.setSuppname("Supplier-Priyanka");
+		supplier.setAddress("Bhayander");
 
 		supplierDAO.insertUpdateSupplier(supplier);		
 		System.out.println("Supplier Inserted");
