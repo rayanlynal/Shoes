@@ -31,17 +31,17 @@ public class CategoryTestCase
 		System.out.println("Category Inserted");
 	*/
 		//Retrieval TestCase
-		/*
-		Category category=categoryDAO.getCategory(1);
+	/*	
+		Category category=categoryDAO.getCategory(3);
 		System.out.println("Category Name:"+category.getCatname());
 		System.out.println("Category Description:"+category.getCatdesc());
 		*/
-		
+	/*	
 		//Deletion TestCase
 		Category category=categoryDAO.getCategory(1);
 		categoryDAO.deleteCategory(category);
 		System.out.println("The Category Deleted");
-	
+	*/
 		//Retrieving the Data
 		/*
 		List<Category> list=categoryDAO.getCategoryDetails();
