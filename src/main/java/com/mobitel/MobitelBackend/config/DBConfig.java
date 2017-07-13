@@ -101,4 +101,12 @@ public class DBConfig {
 		System.out.println("-- UserDAO Object Creation--");
 		return new UserDAO(sessionFactory);
 	}
+	
+	@Autowired
+	@Bean(name="cartDAO")
+	public CartDAO getCartDAO(SessionFactory sessionFactory)
+	{
+		System.out.println("-- CartDAO Object Creation--");
+		return new CartDAO(sessionFactory);
+	}
 }
